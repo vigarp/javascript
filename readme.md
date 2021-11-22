@@ -1,6 +1,6 @@
 # Javascript 
 
-Ini adalah latihan belajar tentang Javascript dasar. Materi yang ada di setiap file adalah berisikan tentang tipe data object, if-else, perulangan, spread operator dan destructuring.
+Ini adalah latihan belajar tentang Javascript dasar.
 > **Sebelum menjalankan program pastikan lokasi/direktori terminal tepat pada folder ini.** 
 Di dalam folder ini terdiri dari 4 file ekstensi js, masing-masingnya ialah:
 
