@@ -1,14 +1,15 @@
-const siswa = [
+const name = [
     "Abigail", "Alexandra", "Alison",
     "Amanda", "Angela", "Bella", "Carol", "Caroline", "Carolyn",
     "Deirdre", "Diana", "Elizabeth", "Ella", "Faith", "Olivia", "Penelope"];
 
 function displayValue(fillValue) {
-    console.log(fillValue)
+    let nameList = fillValue.join(", ");
+    console.log(nameList);
 }
 
 function searchName(key1, key2, callBacks) {
-    let filtered = siswa.filter(function (str) {
+    let filtered = name.filter(function (str) {
         return str.includes(key1);
     });
 

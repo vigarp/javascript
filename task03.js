@@ -19,4 +19,4 @@ const seleksiNilai = (key1, key2, arr) => {
     }
 }
 
-seleksiNilai(53, 20, [2, 25, 4, 14, 17, 30, 8]);
+seleksiNilai(4, 14, [2, 25, 4, 14, 17, 30, 8]);
