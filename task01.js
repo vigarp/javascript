@@ -10,18 +10,17 @@ console.log("\n");
 
 // 2. Build-in method fill()
 const fruits = ["Apple", "Strawberry", "Orange", "Banana"];
-const milk = fruits.fill("Milk");
+const milk = fruits.fill("Milk", 2, 3);
 console.log(milk);
 console.log("\n")
 // Memenuhi dan menggantikan seluruh anggota array
 
 // 3. Build-in method every()
 const ages = [32, 33, 16, 40];
-ages.every(checkAge);
-function checkAge(age) {
-    return age > 20;
+function checktheAge(age) {
+    return age < 50;
 }
-console.log(checkAge());
+console.log(ages.every(checktheAge));
 console.log("\n");
 // Mengecek/memeriksa array dengan sebuah function
 

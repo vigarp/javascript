@@ -10,11 +10,11 @@ function displayValue(fillValue) {
 
 function searchName(key1, key2, callBacks) {
     let filtered = name.filter(function (str) {
-        return str.includes(key1);
+        return str.includes(key1.toLowerCase());
     });
 
     filtered = filtered.slice(0, key2);
     callBacks(filtered);
 }
 
-searchName("rol", 5, displayValue);
+searchName("N", 3, displayValue);
